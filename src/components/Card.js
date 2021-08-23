@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Card = ({ cardInfo }) => {
 
@@ -8,7 +9,7 @@ const Card = ({ cardInfo }) => {
     <div className="col-md-4 my-2" >
       <section>
         <div className="card text-center bg-dark text-light">
-          <a href={urlDemo} target="_blank" rel="noreferrer">
+          <a href={urlDemo} target="_blank" rel="noreferrer" className="over-flow-h">
             <img src={image} className="card-img-top" alt={title} />
           </a>
           <div className="card-body">
@@ -21,6 +22,14 @@ const Card = ({ cardInfo }) => {
       </section>
     </div>
   );
+}
+
+Card.propTypes = {
+  title: PropTypes.string,
+  about: PropTypes.string,
+  image: PropTypes.string,
+  urlDemo: PropTypes.string,
+  urlCode: PropTypes.string
 }
 
 export default Card;

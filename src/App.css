@@ -1,9 +1,19 @@
-.main{
-  /* background-color: #ffffff7a; */
+.card {
+  transition: all 0.5s;
 }
 
-@media (min-width: 800px) {
-  .main{
-    height: 100vh;
-  }
+.card:hover {
+  box-shadow: 0 0.25rem 0.5rem white;
+}
+
+.card-img-top{
+  transition: all 0.5s;
+}
+
+.card-img-top:hover{
+  transform: scale(1.2);
+}
+
+.over-flow-h{
+  overflow: hidden;
 }
