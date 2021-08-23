@@ -1,0 +1,9 @@
+.main{
+  /* background-color: #ffffff7a; */
+}
+
+@media (min-width: 800px) {
+  .main{
+    height: 100vh;
+  }
+}
