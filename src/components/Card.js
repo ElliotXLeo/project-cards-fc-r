@@ -8,7 +8,7 @@ const Card = ({ cardInfo }) => {
   return (
     <div className="col-md-4 my-2" >
       <section>
-        <div className="card text-center bg-dark text-light">
+        <div className="card text-center bg-dark text-light animate__animated animate__fadeInUp">
           <a href={urlDemo} target="_blank" rel="noreferrer" className="over-flow-h">
             <img src={image} className="card-img-top" alt={title} />
           </a>
