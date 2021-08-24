@@ -6,14 +6,18 @@
   box-shadow: 0 0.25rem 0.5rem white;
 }
 
-.card-img-top{
+.over-flow-h {
+  overflow: hidden;
+}
+
+.card-img-top {
   transition: all 0.5s;
 }
 
-.card-img-top:hover{
+.card-img-top:hover {
   transform: scale(1.2);
 }
 
-.over-flow-h{
-  overflow: hidden;
+.card-subtitle {
+  color: var(--gold);
 }
