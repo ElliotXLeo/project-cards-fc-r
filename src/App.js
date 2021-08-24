@@ -10,7 +10,7 @@ function App() {
   return (
     <Fragment>
       <Header
-        title='Proyectos desarrollados'
+        title='Proyectos Desarrollados'
       />
 
       <main>
