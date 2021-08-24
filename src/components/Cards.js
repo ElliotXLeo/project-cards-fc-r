@@ -9,8 +9,8 @@ const Cards = () => {
       title: 'Personal Web Responsive YM',
       mainTechnology: 'HTML',
       technologies: 'HTML, CSS, JavaScript, BEM, Mobile First, Maquetado Responsive, flexbox y grid',
-      about: 'Página Web Personal Responsiva donde el profesional detalla lo más relevante de su carrera, como su perfil y metas, experiencia obtenida, habilidades desarrolladas y formas de contactarlo.',
-      image: 'https://i.imgur.com/bbkWmes.png',
+      about: 'Página Web Personal Responsiva donde el profesional detalla lo más relevante de su carrera, como su perfil, proyectos realizados, experiencia obtenida, habilidades desarrolladas y formas de contactarlo.',
+      image: 'https://i.imgur.com/nAjUlNq.png',
       urlDemo: 'https://elliotxleo.github.io/personal-web-responsive-ym/',
       urlCode: 'https://github.com/ElliotXLeo/personal-web-responsive-ym'
     },
