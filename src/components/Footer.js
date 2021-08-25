@@ -1,12 +1,17 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const Footer = ({ currentDate }) => {
+const Footer = ({ currentDate, author }) => {
   return (
     <footer className="footer animate__animated animate__fadeInUp">
-      <p>Todos los derechos reservados &copy; {currentDate}</p>
+      <div>🦄Copyright &copy; {currentDate} {author}. Todos los derechos reservados.🦄</div>
     </footer>
   );
 }
 
-export default Footer;
+Footer.propTypes = {
+  currentDate: PropTypes.number.isRequired,
+  author: PropTypes.string.isRequired
+}
 
+export default Footer;
