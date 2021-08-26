@@ -1,10 +1,18 @@
+:root {
+  --text-color: #ffffff;
+  --gold: #ffd700;
+}
+
 .body {
   background-image: linear-gradient(to right, #3ea1db, #5d34ec);
 }
 
-:root {
-  --text-color: #ffffff;
-  --gold: #ffd700;
+.body__spinner--centrado{
+  position: absolute;
+  font-size: 5rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .header {

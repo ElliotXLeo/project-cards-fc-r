@@ -1,13 +1,12 @@
 import React from 'react';
-import { developedProjects } from '../Helpers';
 import Card from './Card';
 
-const Cards = () => {
+const Cards = ({ data }) => {
 
   return (
     <section className="container">
       <div className="row align-items-start justify-content-around">
-        {developedProjects.map((cardInfo) => {
+        {data.map((cardInfo) => {
           return (
             <Card
               key={cardInfo.id}
