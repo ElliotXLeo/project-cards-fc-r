@@ -7,13 +7,18 @@
   background-image: linear-gradient(to right, #3ea1db, #5d34ec);
 }
 
-.body__spinner--centrado{
+.contenedor-spinner{
+  height: 100vh;
+  position: relative;
+}
+
+.contenedor-spinner__spinner{
   position: absolute;
-  font-size: 5rem;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 
 .header {
   text-align: center;

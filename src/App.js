@@ -3,6 +3,7 @@ import './App.css';
 import Cards from './components/Cards';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import Loading from './components/Loading';
 
 function App() {
 
@@ -41,7 +42,11 @@ function App() {
           </Fragment>
         )
         : (
-          <div className="body__spinner--centrado">💫🌌❤🌌💫</div>
+          <div className="contenedor-spinner">
+            <div className="contenedor-spinner__spinner">
+              <Loading />
+            </div>
+          </div>
         )
       }
     </Fragment>
