@@ -1,6 +1,6 @@
 # [Proyectos Desarrollados](https://reactcardsbootstrapfc.netlify.app) | [<img src="https://image.flaticon.com/icons/png/512/174/174857.png" height="20"/>](https://www.linkedin.com/in/elliotgaramendi/) | [<img src="https://image.flaticon.com/icons/png/512/733/733553.png" height="20"/>](https://github.com/ElliotXLeo) | [<img src="https://image.flaticon.com/icons/png/512/145/145802.png" height="20"/>](https://www.facebook.com/elliotgaramendi) | [<img src="https://image.flaticon.com/icons/png/512/1384/1384055.png" height="20"/>](https://api.whatsapp.com/send?phone=51997045329) | [<img src="https://image.flaticon.com/icons/png/512/975/975645.png" height="20"/>](https://elliotxleo.github.io/personal-web-responsive-ym/) | [<img src="https://image.flaticon.com/icons/png/512/5439/5439199.png" height="20"/>](mailto:elliotgaramendi@gmail.com) | 
 
-[![react-cards-bootstrap-fc](https://i.imgur.com/GgeLqKr.png)](https://reactcardsbootstrapfc.netlify.app)
+[![react-cards-bootstrap-fc](https://i.imgur.com/mLPINFH.png)](https://reactcardsbootstrapfc.netlify.app)
 
 Desarrollado con React, HTML, CSS, JavaScript, Bootstrap y Animate.css. Portafolio de Proyectos Desarrollados. Aplicación que lista los proyectos desarrollados del profesional brindando la información más relevante. Se puede ingresar al Demo y al código fuente. La data la consume de una API.
 
