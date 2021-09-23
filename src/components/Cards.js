@@ -6,7 +6,7 @@ const Cards = ({ data }) => {
   return (
     <section className="container">
       <div className="row align-items-start justify-content-around">
-        {data.map((cardInfo) => {
+        {[...data].reverse().map((cardInfo) => {
           return (
             <Card
               key={cardInfo.id}

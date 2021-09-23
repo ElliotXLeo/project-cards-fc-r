@@ -11,7 +11,7 @@ function App() {
   const [data, guardarData] = useState();
 
   const consultarApi = async () => {
-    const api = await fetch('https://elliotxleo.github.io/public-api/json/react-cards-bootstrap-fc.json')
+    const api = await fetch('https://elliotxleo.github.io/api-publica/json/portafolio-elliot.json');
     const data = await api.json();
     guardarData(data);
   }
@@ -25,19 +25,17 @@ function App() {
       {data
         ? (
           <Fragment>
-            <Header
-              company={data.company}
-            />
+            <Header />
 
             <main>
               <Cards
-                data={data.data}
+                data={ data.projects}
               />
             </main>
 
             <Footer
               currentDate={currentDate}
-              author={data.author}
+              author={data.profile.name}
             />
           </Fragment>
         )
