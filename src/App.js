@@ -11,7 +11,7 @@ function App() {
   const [data, guardarData] = useState();
 
   const consultarApi = async () => {
-    const api = await fetch('https://elliotxleo.github.io/api-publica/json/portafolio-elliot.json');
+    const api = await fetch('https://elliotxleo.github.io/api-json-public/json/portafolio-elliot.json');
     const data = await api.json();
     guardarData(data);
   }
@@ -29,7 +29,7 @@ function App() {
 
             <main>
               <Cards
-                data={ data.projects}
+                data={data.projects}
               />
             </main>
 
