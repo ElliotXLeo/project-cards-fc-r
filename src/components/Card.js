@@ -9,7 +9,7 @@ const Card = ({ cardInfo }) => {
     <section className="col-md-4 my-2">
       <div className="card text-center bg-dark text-light animate__animated animate__fadeInUp">
         <a href={urlDemo} target="_blank" rel="noreferrer" className="over-flow-h">
-          <img src={image} className="card-img-top" alt={title} />
+          <img src={image} className="card-img-top" alt={title} loading="lazy" />
         </a>
         <div className="card-body">
           <h4 className="card-title">{title}</h4>
